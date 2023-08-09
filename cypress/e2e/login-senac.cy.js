@@ -7,6 +7,7 @@ describe('template spec', () => {
    cy.get('#txtLoginNaoLogadoMob').click()
    cy.get('#login-email').type('matteus.febronio@hotmail.com')
    cy.get('#login-password').type('Matteus1234')
-
+   cy.get('#btnLoginHeader').click()
+   
   })
 })
